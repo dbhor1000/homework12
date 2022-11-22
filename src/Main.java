@@ -8,10 +8,10 @@ public class Main {
         author2 = new Author("Александр Пушкин");
 
         Book book1;
-        book1 = new Book("Воина и Мир", author1.getAuthorName(), 1865);
+        book1 = new Book("Воина и Мир", author1, 1865);
 
         Book book2;
-        book2 = new Book("Руслан и Людмила", author2.getAuthorName(), 1820);
+        book2 = new Book("Руслан и Людмила", author2, 1820);
 
         System.out.println(book1.getBookName() + " " + book1.getBookAuthorName() + " " + book1.getBookYear() );
         System.out.println(book2.getBookName() + " " + book2.getBookAuthorName() + " " + book2.getBookYear() );
